@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Infrastructure">
+      <UniqueIdentifier>{21441b7c-b1e7-4256-894a-e0a09f9520cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Data Stream">
+      <UniqueIdentifier>{1e8a0b72-5c4b-4e5c-8aa3-886f0257424e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Data Stream\traits">
+      <UniqueIdentifier>{42c1b1da-72ca-46b3-a7d5-3967d043aecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Data Stream\policies">
+      <UniqueIdentifier>{4d4c3adc-69ea-45a0-8678-88c02d747007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Memory Management">
+      <UniqueIdentifier>{6e6542bd-a97c-46c4-8d50-c76e579e4629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\win32-OpenGL">
+      <UniqueIdentifier>{2a6bbbae-5196-4fbb-af52-6dc9f0d06a9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{4dd158fc-c96f-4b2d-aac8-4d5b1d7924fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Model">
+      <UniqueIdentifier>{acdad5b5-26c4-4e35-bb3f-31e17d357146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface">
+      <UniqueIdentifier>{4f1e2560-b045-4a19-9e8f-c5bb2a172f8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Controllers">
+      <UniqueIdentifier>{3e6a1b60-7b07-452f-b2fc-0ee607e38570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Controllers\traits">
+      <UniqueIdentifier>{f33227b6-ee40-444a-b384-b5f5c0883f90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Controllers\policies">
+      <UniqueIdentifier>{da8aaa61-1c48-463c-9b0b-324e35f3bfce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain">
+      <UniqueIdentifier>{8e4bfdb2-742a-40bc-a582-58447e85fe73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Generic Mesh Representation">
+      <UniqueIdentifier>{22ce0da2-bece-42b4-9eb8-b02fcef4a06c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Generic Mesh Representation\traits">
+      <UniqueIdentifier>{ff704080-a998-49b3-b875-7e550dca1c7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Generic Mesh Representation\policies">
+      <UniqueIdentifier>{84742324-e48e-48fa-b7ee-b2be26025010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Renderering">
+      <UniqueIdentifier>{cbbeec59-c183-4fcc-94b6-481b61e7c2eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Renderering\policies">
+      <UniqueIdentifier>{c4930fac-cef5-420a-8046-435a2a7a1fe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Renderering\traits">
+      <UniqueIdentifier>{a54dfb05-3317-48a9-a322-5f1140a7e992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Scene Graph">
+      <UniqueIdentifier>{557862bc-07df-4efb-9341-1b0a24481281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Scene Graph\traits">
+      <UniqueIdentifier>{e7a5deef-a6a4-4407-a086-ff3da2b0b608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Scene Graph\policies">
+      <UniqueIdentifier>{ca0c2df6-6f72-47af-9649-cac4a2be4ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Math">
+      <UniqueIdentifier>{fe780a4c-9a2f-44fc-85d5-4659212c96e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Math\traits">
+      <UniqueIdentifier>{2b643067-1775-4469-89c7-6fc3e8426438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Geometry">
+      <UniqueIdentifier>{c88cc50e-08e1-4930-a6fc-977f27c54193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Texture Management">
+      <UniqueIdentifier>{b38c6751-8bd2-45c6-8bc6-1b447a9b19e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>{ae2f2690-0a85-40a4-b106-c142632761ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\tga_files">
+      <UniqueIdentifier>{b539e83e-aeba-4efd-8265-9a7ccca9c4d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\csm_files">
+      <UniqueIdentifier>{1486a7b4-7652-4ff4-971a-c8718a10246c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\brick">
+      <UniqueIdentifier>{279c8ad0-1172-4bc9-8158-7d0bc84af5d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLUT">
+      <UniqueIdentifier>{115c4a1f-ad99-4eb7-b7ee-cf5e36a7b462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLUT\libs">
+      <UniqueIdentifier>{77fc66a4-1fd1-488a-bd87-d7e4f31183ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL">
+      <UniqueIdentifier>{abf1770a-43de-448a-a6ff-9de0cf43a5a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL\release">
+      <UniqueIdentifier>{5fa0f623-218e-4491-93dd-d482458f50ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL\debug">
+      <UniqueIdentifier>{b9a4697f-73a2-43f1-a612-295f9396b564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Math\policies">
+      <UniqueIdentifier>{2f695fea-b0c2-4f5a-884c-e8e1bbd5a90d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CreateFlatFloor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStream.h">
+      <Filter>Infrastructure\Data Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStreamTrait.h">
+      <Filter>Infrastructure\Data Stream\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="IterationPolicy.h">
+      <Filter>Infrastructure\Data Stream\policies</Filter>
+    </ClInclude>
+    <ClInclude Include="SerializationPolicy.h">
+      <Filter>Infrastructure\Data Stream\policies</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryFrame.h">
+      <Filter>Infrastructure\Memory Management</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryFrameStack.h">
+      <Filter>Infrastructure\Memory Management</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManager.h">
+      <Filter>Infrastructure\Memory Management</Filter>
+    </ClInclude>
+    <ClInclude Include="MemorySegment.h">
+      <Filter>Infrastructure\Memory Management</Filter>
+    </ClInclude>
+    <ClInclude Include="glext.h">
+      <Filter>Infrastructure\win32-OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLExtension.h">
+      <Filter>Infrastructure\win32-OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Application\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraController.h">
+      <Filter>User Interface\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraControllerTrait.h">
+      <Filter>User Interface\Controllers\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardPolicy.h">
+      <Filter>User Interface\Controllers\policies</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshBufferRepr.h">
+      <Filter>Domain\Generic Mesh Representation</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRepr.h">
+      <Filter>Domain\Generic Mesh Representation</Filter>
+    </ClInclude>
+    <ClInclude Include="SurfaceRepr.h">
+      <Filter>Domain\Generic Mesh Representation</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshBufferTrait.h">
+      <Filter>Domain\Generic Mesh Representation\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshReprTrait.h">
+      <Filter>Domain\Generic Mesh Representation\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="SurfaceReprTrait.h">
+      <Filter>Domain\Generic Mesh Representation\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="StoragePolicy.h">
+      <Filter>Domain\Generic Mesh Representation\policies</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererRepr.h">
+      <Filter>Domain\Renderering</Filter>
+    </ClInclude>
+    <ClInclude Include="CullingPolicy.h">
+      <Filter>Domain\Renderering\policies</Filter>
+    </ClInclude>
+    <ClInclude Include="FrustumPolicy.h">
+      <Filter>Domain\Renderering\policies</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPolicy.h">
+      <Filter>Domain\Renderering\policies</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererReprTrait.h">
+      <Filter>Domain\Renderering\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Domain\Scene Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Composite.h">
+      <Filter>Domain\Scene Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Leaf.h">
+      <Filter>Domain\Scene Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraphTrait.h">
+      <Filter>Domain\Scene Graph\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainmentPolicy.h">
+      <Filter>Domain\Scene Graph\policies</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance.h">
+      <Filter>Domain\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Domain\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Domain\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Domain\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Domain\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MathTrait.h">
+      <Filter>Domain\Math\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="StorageTrait.h">
+      <Filter>Domain\Math\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformationTrait.h">
+      <Filter>Domain\Math\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="CoordinateSystem.h">
+      <Filter>Domain\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>Domain\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryTrait.h">
+      <Filter>Domain\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Domain\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereTrait.h">
+      <Filter>Domain\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Domain\Texture Management</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Domain\Texture Management</Filter>
+    </ClInclude>
+    <ClInclude Include="glut-3.7.6-bin\glut.h">
+      <Filter>GLUT</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL_image.h">
+      <Filter>SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="tga_loader.h">
+      <Filter>SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="MathReprPolicy.h">
+      <Filter>Domain\Math\policies</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tga_files\fontsample.tga">
+      <Filter>Content\tga_files</Filter>
+    </None>
+    <None Include="csm_files\input.csm">
+      <Filter>Content\csm_files</Filter>
+    </None>
+    <None Include="csm_files\large-bunny.csm">
+      <Filter>Content\csm_files</Filter>
+    </None>
+    <None Include="csm_files\simple-box.csm">
+      <Filter>Content\csm_files</Filter>
+    </None>
+    <None Include="csm_files\test-hall.csm">
+      <Filter>Content\csm_files</Filter>
+    </None>
+    <None Include="csm_files\two-cube.csm">
+      <Filter>Content\csm_files</Filter>
+    </None>
+    <None Include="brick\AlgaeBricks.bmp">
+      <Filter>Content\brick</Filter>
+    </None>
+    <None Include="glut-3.7.6-bin\glut.def">
+      <Filter>GLUT</Filter>
+    </None>
+    <None Include="glut-3.7.6-bin\glut32.dll">
+      <Filter>GLUT\libs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="glut-3.7.6-bin\glut32.lib">
+      <Filter>GLUT\libs</Filter>
+    </Library>
+    <Library Include="sdl_libs_release\SDL.lib">
+      <Filter>SDL\release</Filter>
+    </Library>
+    <Library Include="sdl_libs_release\SDLmain.lib">
+      <Filter>SDL\release</Filter>
+    </Library>
+    <Library Include="sdl_libs_debug\SDL.lib">
+      <Filter>SDL\debug</Filter>
+    </Library>
+    <Library Include="sdl_libs_debug\SDLmain.lib">
+      <Filter>SDL\debug</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

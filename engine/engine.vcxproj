@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E92CBF80-81ED-4903-9971-02CCA13EB139}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>./sdl_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)engine.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)engine.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>./sdl_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)engine.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CreateFlatFloor.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="DataStream.h" />
+    <ClInclude Include="DataStreamTrait.h" />
+    <ClInclude Include="IterationPolicy.h" />
+    <ClInclude Include="MathReprPolicy.h" />
+    <ClInclude Include="SerializationPolicy.h" />
+    <ClInclude Include="MemoryFrame.h" />
+    <ClInclude Include="MemoryFrameStack.h" />
+    <ClInclude Include="MemoryManager.h" />
+    <ClInclude Include="MemorySegment.h" />
+    <ClInclude Include="glext.h" />
+    <ClInclude Include="OpenGLExtension.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="CameraController.h" />
+    <ClInclude Include="CameraControllerTrait.h" />
+    <ClInclude Include="KeyboardPolicy.h" />
+    <ClInclude Include="MeshBufferRepr.h" />
+    <ClInclude Include="MeshRepr.h" />
+    <ClInclude Include="SurfaceRepr.h" />
+    <ClInclude Include="MeshBufferTrait.h" />
+    <ClInclude Include="MeshReprTrait.h" />
+    <ClInclude Include="SurfaceReprTrait.h" />
+    <ClInclude Include="StoragePolicy.h" />
+    <ClInclude Include="RendererRepr.h" />
+    <ClInclude Include="CullingPolicy.h" />
+    <ClInclude Include="FrustumPolicy.h" />
+    <ClInclude Include="RenderPolicy.h" />
+    <ClInclude Include="RendererReprTrait.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="Composite.h" />
+    <ClInclude Include="Leaf.h" />
+    <ClInclude Include="SceneGraphTrait.h" />
+    <ClInclude Include="ContainmentPolicy.h" />
+    <ClInclude Include="Distance.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="Quaternion.h" />
+    <ClInclude Include="Transform.h" />
+    <ClInclude Include="Vector.h" />
+    <ClInclude Include="MathTrait.h" />
+    <ClInclude Include="StorageTrait.h" />
+    <ClInclude Include="TransformationTrait.h" />
+    <ClInclude Include="CoordinateSystem.h" />
+    <ClInclude Include="Geometry.h" />
+    <ClInclude Include="GeometryTrait.h" />
+    <ClInclude Include="Sphere.h" />
+    <ClInclude Include="SphereTrait.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="glut-3.7.6-bin\glut.h" />
+    <ClInclude Include="SDL_image.h" />
+    <ClInclude Include="tga_loader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tga_files\fontsample.tga" />
+    <None Include="csm_files\input.csm" />
+    <None Include="csm_files\large-bunny.csm" />
+    <None Include="csm_files\simple-box.csm" />
+    <None Include="csm_files\test-hall.csm" />
+    <None Include="csm_files\two-cube.csm" />
+    <None Include="brick\AlgaeBricks.bmp" />
+    <None Include="glut-3.7.6-bin\glut.def" />
+    <None Include="glut-3.7.6-bin\glut32.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="glut-3.7.6-bin\glut32.lib" />
+    <Library Include="sdl_libs_release\SDL.lib" />
+    <Library Include="sdl_libs_release\SDLmain.lib" />
+    <Library Include="sdl_libs_debug\SDL.lib" />
+    <Library Include="sdl_libs_debug\SDLmain.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
